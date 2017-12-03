@@ -1,3 +1,23 @@
+/*
+Linkedlist Node insetion at diffrent postion and deletion
+
+Intial linked list travesal: 10 20 30 60
+
+case 1:node insertion at front :22
+after insertion travesal :  22 10 20 30 60 
+
+case 2:Node insertion at the end: 99
+after insertion travesal :  22 10 20 30 60 99
+
+case 3:intermediate insertion(between 30 and 60)
+after insertion travesal :  22 10 20 30 88 60 99
+
+case 4:deleting a node(node 60)
+after deletion travesal :  22 10 20 30 88 99
+
+
+*/
+
 public class insertfront {
     Node head;
      void print(Node node)
