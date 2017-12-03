@@ -1,3 +1,19 @@
+/*   Tree structure
+                 1
+               
+       2                  3
+       
+   4      5        6
+
+7     8
+
+preorder travesal : 1 2 4 7 8 5 3 6 
+inorder travesal  : 7 4 8 2 5 1 6 3 
+postorder travesal: 7 8 4 5 2 6 3 1 
+
+
+
+*/
 public class Binarytree {
 Node root;
 void preorder(Node node)
